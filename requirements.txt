@@ -1,0 +1,37 @@
+# requirements.txt — Growth Agent 10x Free
+# Python 3.11. ALLE dependencies zijn gratis te gebruiken (free tiers / open source).
+# Versies zijn losjes gepind (>=) zodat gratis-tier API-clients compatibel blijven.
+
+# Supabase (Postgres + API) — gratis tier: 500 MB database
+supabase>=2.0.0
+
+# LLM providers — gratis tiers: Groq 14.400 req/dag, Gemini 1.500 req/dag, Cohere 1.000 req/dag
+groq>=0.9.0
+google-generativeai>=0.7.0
+cohere>=5.0.0
+
+# Telegram Bot API — volledig gratis, geen limiet op berichten naar eigen bot
+python-telegram-bot>=21.0
+
+# Templating voor scripts, beschrijvingen en rapporten
+jinja2>=3.1.0
+
+# Fernet-encryptie voor opgeslagen YouTube OAuth-tokens (ENCRYPTION_KEY uit env)
+cryptography>=42.0.0
+
+# YAML-configuratie (niche_library.yaml, channels.yaml, settings.yaml)
+pyyaml>=6.0
+
+# YouTube Data API v3 — gratis: 10.000 units/dag per GCP-project
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# Streamlit-dashboard — gratis via Streamlit Community Cloud
+streamlit>=1.32.0
+pandas>=2.0.0
+
+# HTTP + env + tests
+requests>=2.31.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
