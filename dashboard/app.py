@@ -59,7 +59,13 @@ def fetch_table(table, select="*", order=None, limit=500):
         q = sb.table(table).select(select).limit(limit)
         if order:
             q = q.order(order)
-        return q.execute().data or []
+        data = q.execute().data or []
+        # Normalize defensively: only lists of dicts are usable below.
+        # (Guards against client-version quirks returning a bare dict
+        # or mixed row shapes, which crashed the dashboard before.)
+        if isinstance(data, dict):
+            data = [data]
+        return [row for row in data if isinstance(row, dict)]
     except Exception as e:
         st.error(f"Fout bij ophalen van '{table}': {e}")
         return []
@@ -97,8 +103,8 @@ with tab_approval:
     if not pending:
         st.success("Geen items wachten op goedkeuring.")
     else:
-        videos = {v["id"]: v for v in fetch_table("videos", "id,title,channel_id")}
-        channels_map = {c["id"]: c.get("name", "?") for c in fetch_table("channels", "id,name")}
+        videos = {v.get("id"): v for v in fetch_table("videos", "id,title,channel_id") if v.get("id") is not None}
+        channels_map = {c.get("id"): c.get("name", "?") for c in fetch_table("channels", "id,name") if c.get("id") is not None}
         for item in pending:
             video = videos.get(item.get("video_id"), {})
             ch_name = channels_map.get(video.get("channel_id"), "?")
@@ -150,8 +156,8 @@ with tab_analytics:
         videos = fetch_table("videos", "id,title,channel_id")
         analytics = fetch_table("analytics", "video_id,views")
         channels = fetch_table("channels", "id,name")
-        ch_name = {c["id"]: c.get("name", "?") for c in channels}
-        vid_channel = {v["id"]: v.get("channel_id") for v in videos}
+        ch_name = {c.get("id"): c.get("name", "?") for c in channels if c.get("id") is not None}
+        vid_channel = {v.get("id"): v.get("channel_id") for v in videos if v.get("id") is not None}
         totals = {}
         for row in analytics:
             cid = vid_channel.get(row.get("video_id"))
