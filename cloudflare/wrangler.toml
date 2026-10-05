@@ -1,0 +1,19 @@
+name = "growth-agent-10x-free"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# [vars]
+# Public (non-secret) variables only. Secrets are set with `wrangler secret put`
+# so they never live in this file or in git.
+
+# ---------------------------------------------------------------
+# Secrets setup — run these once (they are stored encrypted by Cloudflare):
+#
+#   wrangler secret put SUPABASE_URL
+#   wrangler secret put SUPABASE_SERVICE_KEY
+#   wrangler secret put TELEGRAM_BOT_TOKEN
+#   wrangler secret put COLAB_TRIGGER_TOKEN
+#
+# Verify with: wrangler secret list
+# Deploy with: wrangler deploy
+# ---------------------------------------------------------------

@@ -1,0 +1,56 @@
+# =============================================================================
+# settings.yaml — Globale instellingen voor Growth Agent 10x Free
+# Alles draait op gratis tiers: GitHub Actions, Cloudflare Workers, Supabase,
+# Groq / Gemini / Cohere (free), Telegram Bot API, Streamlit Community Cloud.
+# Cron-strings hieronder zijn in UTC; PKT = UTC+5.
+# =============================================================================
+
+scheduler:
+  # Dagelijks onderzoek naar trending onderwerpen per kanaal — 06:00 PKT
+  research: "0 1 * * *"
+  # Dagelijkse publicatie-run (1 video per kanaal) — 10:00 PKT
+  publish: "0 5 * * *"
+  # Reacties ophalen + antwoorden voorbereiden — elke 3 uur
+  comments: "0 */3 * * *"
+  # Keepalive-ping om gratis diensten wakker te houden — elke 3 dagen 13:00 PKT
+  keepalive: "0 8 */3 * *"
+  # Wekelijks analytics-rapport naar Telegram — zondag 21:00 PKT
+  weekly_report: "0 16 * * 0"
+
+free_tier_limits:
+  github_actions_minutes_monthly: 2000
+  cloudflare_requests_daily: 100000
+  supabase_db_mb: 500
+  groq_req_daily: 14400
+  gemini_req_daily: 1500
+  cohere_req_daily: 1000
+  youtube_units_daily_per_project: 10000
+
+llm_priority:
+  - groq
+  - gemini
+  - cohere
+
+groq_model: "llama-3.3-70b-versatile"
+gemini_model: "gemini-2.5-flash"
+
+retry:
+  max_attempts: 3
+  backoff_base_seconds: 2
+
+telegram:
+  parse_mode: "HTML"
+  # Admin-chat ontvangt goedkeuringsverzoeken, alerts en rapporten.
+  # Waarde komt uit env var TELEGRAM_ADMIN_CHAT_ID — nooit hardcoded.
+
+dashboard:
+  title: "Growth Agent 10x Free — Dashboard"
+  refresh_seconds: 60
+  sections:
+    - "channels"
+    - "videos"
+    - "approval_queue"
+    - "engagement_queue"
+    - "analytics"
+    - "llm_usage"
+    - "job_queue"

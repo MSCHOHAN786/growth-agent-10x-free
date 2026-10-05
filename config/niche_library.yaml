@@ -1,0 +1,272 @@
+# =============================================================================
+# niche_library.yaml — Psychologie-niche bibliotheek (VOLLEDIG GRATIS workflow)
+# Alle teksten zijn in het Nederlands (nl), passend bij de doelkanalen.
+# Sleutelwoorden (keys) zoals dark_psychology worden in channels.yaml hergebruikt
+# als 'sub_niche' — verander deze keys nooit zonder beide bestanden te updaten.
+# =============================================================================
+
+sub_niches:
+
+  dark_psychology:
+    naam: "Donkere Psychologie"
+    beschrijving: >
+      De verborgen kant van het menselijk gedrag: manipulatie, beïnvloeding en
+      de psychologische trucs die anderen op jou gebruiken — en hoe jij jezelf
+      ertegen beschermt. We ontmaskeren tactieken met wetenschappelijk onderbouwde
+      uitleg, zodat kijkers scherper, weerbaarder en social intelligenter worden.
+    doelgroep: "18–35 jaar, geïnteresseerd in mensenkennis, true crime, sociale dynamiek en zelfverdediging tegen manipulatie"
+    content_pijlers:
+      - "Manipulatie-tactieken ontmaskerd (gaslighting, love bombing, silent treatment)"
+      - "Dark triad: narcisme, machiavellisme en psychopathie herkennen"
+      - "Lichaamstaal lezen en micro-expressies"
+      - "Overtuigingspsychologie en verborgen beïnvloeding in marketing en media"
+      - "Grenzen stellen tegen manipulerende mensen"
+      - "Psychologische experimenten die donkere waarheden onthullen (Milgram, Stanford)"
+      - "Zelfbescherming: mentale weerbaarheid opbouwen"
+      - "Signalen dat iemand je gebruikt — en wat je eraan doet"
+    toon_richtlijnen: >
+      Fascinerend en confronterend, maar nooit cynisch. We tonen de donkere kant
+      om kijkers te wapenen, niet om ze te leren manipuleren. Directe taal,
+      korte zinnen, sterke hooks. Geen medisch advies; altijd een disclaimer dat
+      dit educatieve content is.
+    voorbeeld_onderwerpen:
+      - "7 Zinnen Waarmee Narcisten Je Altijd Manipuleren"
+      - "Het Milgram-experiment: Waarom Goede Mensen Slechte Dingen Doen"
+      - "Zo Herken Je Gaslighting in 30 Seconden"
+      - "De Duistere Truc Achter 'Love Bombing' Uitgelegd"
+      - "Waarom Zwakke Grenzen Manipulators Aantrekken"
+
+  zelfvertrouwen:
+    naam: "Zelfvertrouwen"
+    beschrijving: >
+      Praktische psychologie om zelfvertrouwen op te bouwen — van binnenuit, niet
+      door neppe affirmaties. We combineren cognitieve gedragstechnieken met
+      dagelijkse gewoontes die écht werken, zodat kijkers socialer, assertiever en
+      zekerder in hun schoenen staan.
+    doelgroep: "16–34 jaar, verlegen of onzeker, studenten en young professionals die socialer en assertiever willen worden"
+    content_pijlers:
+      - "Zelfbeeld herstellen: negatieve kerngedachten uitdagen"
+      - "Assertiviteitstraining: nee zeggen zonder schuldgevoel"
+      - "Sociale angst overwinnen met exposure-technieken"
+      - "Lichaamshouding en stemgebruik voor meer uitstraling"
+      - "Complimenten geven en ontvangen"
+      - "Faalmomenten omzetten in groei (growth mindset)"
+      - "Zelfcompassie versus zelfkritiek"
+    toon_richtlijnen: >
+      Warm, bemoedigend en concreet. Geen zweverige "je bent perfect"-praat, maar
+      eerlijke psychologie met kleine, haalbare stappen. Spreek de kijker direct
+      aan ("jij kan dit"). Vermijd diagnoses; verwijs bij zware klachten naar
+      professionele hulp.
+    voorbeeld_onderwerpen:
+      - "5 Psychologische Trucs Voor Direct Meer Zelfvertrouwen"
+      - "Waarom Nee Zeggen Je Sterker Maakt (En Hoe Je Het Doet)"
+      - "De 2-Minuten Houding Die Je Brein Voor De Gek Houdt"
+      - "Stop Met Jezelf Saboteren: 3 Gedachten Die Je Moet Loslaten"
+      - "Zo Word Je Sociaal Zelfverzekerd, Ook Als Introvert"
+
+  relaties:
+    naam: "Relaties"
+    beschrijving: >
+      De psychologie achter liefde, vriendschap en verbinding. Van hechtingstheorie
+      tot communicatiepatronen: we helpen kijkers gezondere relaties opbouwen,
+      rode vlaggen herkennen en beter begrijpen waarom ze liefhebben zoals ze doen.
+    doelgroep: "20–40 jaar, singles en stellen, geïnteresseerd in datingpsychologie, hechting en communicatie"
+    content_pijlers:
+      - "Hechtingsstijlen: angstig, vermijdend, veilig — wat ben jij?"
+      - "Rode en groene vlaggen in dating herkennen"
+      - "Communicatie: ruzie oplossen zonder drama"
+      - "Waarom we verliefd worden op de verkeerde mensen"
+      - "Grenzen en verwachtingen in relaties"
+      - "Na een break-up: psychologisch herstel"
+      - "Liefdestalen en emotionele beschikbaarheid"
+    toon_richtlijnen: >
+      Empathisch, nuchter en relatie-positief. Geen man-vrouw-stereotypen als
+      absolute waarheden; erken diversiteit in relaties. Praktisch advies met
+      psychologische basis, geen therapie-vervanging.
+    voorbeeld_onderwerpen:
+      - "Jouw Hechtingsstijl Bepaalt Je Hele Liefdesleven"
+      - "5 Groene Vlaggen Die Iedereen Over Het Hoofd Ziet"
+      - "Waarom Angstige Hechters Verliefd Worden Op Vermijders"
+      - "De Juiste Manier Om Ruzie Te Maken (Volgens Psychologen)"
+      - "Zo Weet Je Of Het Tijd Is Om Los Te Laten"
+
+  stoicisme:
+    naam: "Stoïcisme"
+    beschrijving: >
+      Eeuwenoude wijsheid voor moderne problemen: de stoïcijnse filosofie van
+      Marcus Aurelius, Seneca en Epictetus toegepast op stress, tegenslag en
+      dagelijkse chaos. Rust in je hoofd, controle over je reacties.
+    doelgroep: "20–45 jaar, mannen en vrouwen die mentale rust zoeken, geïnteresseerd in filosofie, minimalisme en discipline"
+    content_pijlers:
+      - "De dichotomie van controle: wat je wel en niet beheerst"
+      - "Amor fati: tegenslag omarmen als leerschool"
+      - "Memento mori: sterfelijkheid als motivatie"
+      - "Stoïcijnse ochtend- en avondroutines"
+      - "Emoties beheersen zonder ze te onderdrukken"
+      - "Seneca over tijd, rijkdom en geluk"
+      - "Premeditatio malorum: voorbereiden op het ergste"
+    toon_richtlijnen: >
+      Kalm, tijdloos en waardig. Citeer de klassiekers, maar vertaal ze naar
+      concrete moderne situaties. Geen snelle-hack-energie; dit is diepe,
+      rustige content. Vermijd het romantiseren van lijden.
+    voorbeeld_onderwerpen:
+      - "Marcus Aurelius' 3 Regels Voor Een Onverstoorbaar Leven"
+      - "De Stoïcijnse Manier Om Met Kritiek Om Te Gaan"
+      - "Waarom Seneca Zou Zeggen Dat Je Te Veel Klaagt"
+      - "Amor Fati: Van Elke Tegenslag Een Les Maken"
+      - "De Ochtendroutine Van Een Moderne Stoïcijn"
+
+  gewoontes:
+    naam: "Gewoontes"
+    beschrijving: >
+      Gedragspsychologie in de praktijk: hoe gewoontes ontstaan, waarom goede
+      voornemens mislukken en hoe je met kleine systemen grote veranderingen
+      bereikt. Gebaseerd op habit-loop onderzoek en gedragsontwerp.
+    doelgroep: "18–40 jaar, productiviteitsliefhebbers, studenten en professionals die hun leven willen optimaliseren"
+    content_pijlers:
+      - "De habit loop: cue, routine, reward uitgelegd"
+      - "Atomic habits-principes: 1% beter elke dag"
+      - "Slechte gewoontes doorbreken (roken, snoozen, scrollen)"
+      - "Omgeving ontwerpen voor automatisch goed gedrag"
+      - "Habit stacking en implementation intentions"
+      - "Waarom motivatie faalt en systemen winnen"
+      - "Dopamine-detox: feit of fabel?"
+    toon_richtlijnen: >
+      Praktisch, wetenschappelijk en motiverend. Laat onderzoek zien, maar houd
+      het toepasbaar: elke video eindigt met één concrete actie. Geen
+      wondermiddelen beloven; gedragsverandering kost tijd.
+    voorbeeld_onderwerpen:
+      - "De Habit Loop: Waarom Je Brein Verslaafd Is Aan Routines"
+      - "Stop Met Snoozen: De Psychologie Van Wakker Worden"
+      - "Habit Stacking: Plak Nieuwe Gewoontes Aan Oude"
+      - "Waarom Je Omgeving Belangrijker Is Dan Je Wilskracht"
+      - "De 2-Minuten Regel Tegen Uitstelgedrag"
+
+  angst_stress:
+    naam: "Angst & Stressverlichting"
+    beschrijving: >
+      Begrijpelijke psychologie over angst, stress en piekeren — plus bewezen
+      technieken om te kalmeren: ademhaling, cognitieve herstructurering en
+      mindfulness. Geen zweverigheid, maar tools die direct inzetbaar zijn.
+    doelgroep: "18–45 jaar, mensen met stressvolle banen, studenten in tentamenperiodes en iedereen die piekert"
+    content_pijlers:
+      - "Wat angst in je brein doet (amygdala vs prefrontale cortex)"
+      - "Ademhalingstechnieken: box breathing, 4-7-8"
+      - "Piekeren stoppen met cognitieve gedragstechnieken"
+      - "Burn-out signalen vroeg herkennen"
+      - "Progressieve spierontspanning en bodyscan"
+      - "Stress op het werk: grenzen en herstelmomenten"
+      - "Slaap, beweging en voeding als angstremmers"
+    toon_richtlijnen: >
+      Rustig, geruststellend en nooit alarmerend. Normaliseer angst als menselijke
+      reactie; stigmatiseer niet. Altijd vermelden: bij ernstige klachten zoek
+      professionele hulp (huisarts/psycholoog). Geen diagnoses stellen.
+    voorbeeld_onderwerpen:
+      - "Wat Er Echt In Je Brein Gebeurt Bij Een Paniekaanval"
+      - "De 4-7-8 Ademhaling Die Je Zenuwstelsel Kalmeert"
+      - "Stop Met Piekeren: De 5-4-3-2-1 Grondingstechniek"
+      - "7 Vroege Signalen Van Burn-out Die Je Niet Mag Negeren"
+      - "Waarom Je Lichaam Stress Opslaat (En Hoe Je Het Lost)"
+
+  overtuigingskracht:
+    naam: "Overtuigingskracht"
+    beschrijving: >
+      De wetenschap van beïnvloeding: retorica, onderhandeling en presentatie
+      gebaseerd op Cialdini's principes en moderne persuasion-onderzoek. Leer
+      ethisch overtuigen — op werk, in sales en in het dagelijks leven.
+    doelgroep: "22–45 jaar, professionals, ondernemers, verkopers en iedereen die beter wil presenteren en onderhandelen"
+    content_pijlers:
+      - "Cialdini's 7 beïnvloedingsprincipes in de praktijk"
+      - "Onderhandelen: ankeren, BATNA en win-win"
+      - "Storytelling als overtuigingstool"
+      - "Lichaamstaal en stem bij presentaties"
+      - "Omgaan met bezwaren en weerstand"
+      - "Ethische grenzen: overtuigen versus manipuleren"
+      - "Overtuigen via tekst: copywriting-psychologie"
+    toon_richtlijnen: >
+      Zelfverzekerd, slim en ethisch. We leren overtuigen, geen mensen misleiden —
+      dat onderscheid staat centraal. Concrete voorbeelden uit het bedrijfsleven.
+      Professioneel, niet glad.
+    voorbeeld_onderwerpen:
+      - "Cialdini's 7 Principes: Zo Word Je Onweerstaanbaar Overtuigend"
+      - "De Anker-Truc: Win Elke Onderhandeling Voor Hij Begint"
+      - "Waarom Verhalen 22x Beter Werken Dan Feiten"
+      - "Zo Weerleg Je Elk Bezwaar Zonder Ruzie"
+      - "De Ethische Grens Tussen Overtuigen En Manipuleren"
+
+  mindset_motivatie:
+    naam: "Mindset & Motivatie"
+    beschrijving: >
+      De psychologie van doorzetten: growth mindset, intrinsieke motivatie en
+      mentale veerkracht. Voor iedereen die grote doelen heeft maar soms vastloopt
+      — met onderzoek dat laat zien hoe toppers écht denken.
+    doelgroep: "16–35 jaar, studenten, sporters, ondernemers en iedereen met ambities die motivatie zoekt"
+    content_pijlers:
+      - "Growth vs fixed mindset (Carol Dweck)"
+      - "Intrinsieke versus extrinsieke motivatie"
+      - "Grit en doorzettingsvermogen opbouwen"
+      - "Doelen stellen: SMART en WOOP-methode"
+      - "Omgaan met falen en tegenslag"
+      - "Zelfdiscipline als trainbare spier"
+      - "De psychologie van topsporters en presteerders"
+    toon_richtlijnen: >
+      Energiek, eerlijk en inspirerend zonder toxische positiviteit. Erken dat
+      het leven soms zwaar is; motivatie is een vaardigheid, geen magie. Gebruik
+      echte onderzoeksvoorbeelden.
+    voorbeeld_onderwerpen:
+      - "Growth Mindset: Waarom Talent Wordt Overschaduwd Door Inzet"
+      - "De WOOP-methode: Doelen Halen Met Psychologie"
+      - "Waarom Motivatie Je In De Steek Laat (En Discipline Niet)"
+      - "Grit: De Eigenschap Die Succes Beter Voorspelt Dan IQ"
+      - "Zo Sta Je Op Na Elke Tegenslag"
+
+  emotionele_intelligentie:
+    naam: "Emotionele Intelligentie"
+    beschrijving: >
+      Emoties begrijpen — bij jezelf en anderen — is de meest onderschatte
+      vaardigheid van deze tijd. Van empathie tot zelfregulatie: we maken EQ
+      concreet, trainbaar en direct toepasbaar in werk en relaties.
+    doelgroep: "20–45 jaar, professionals, leiders, ouders en iedereen die beter wil communiceren"
+    content_pijlers:
+      - "De 5 pijlers van EQ (Goleman): zelfbewustzijn tot sociale vaardigheid"
+      - "Emoties benoemen: het affect labeling-effect"
+      - "Empathie ontwikkelen: actief luisteren"
+      - "Zelfregulatie onder druk"
+      - "EQ op de werkvloer: leiderschap en feedback"
+      - "Emotionele triggers herkennen en ontmijnen"
+      - "EQ versus IQ: wat voorspelt succes?"
+    toon_richtlijnen: >
+      Volwassen, inzichtelijk en menselijk. Erken dat emoties complex zijn; geen
+      simplistische "denk positief"-adviezen. Praktische oefeningen per video.
+    voorbeeld_onderwerpen:
+      - "Wat Is EQ En Waarom Het Belangrijker Is Dan IQ"
+      - "Benoem Je Emotie En Je Brein Kalmeert Direct"
+      - "Zo Lees Je Emoties Die Mensen Verbergen"
+      - "De Kunst Van Actief Luisteren In 5 Stappen"
+      - "Waarom Slimme Mensen Toch Slechte Beslissingen Nemen"
+
+  slaap_meditatie:
+    naam: "Slaap & Meditatie-psychologie"
+    beschrijving: >
+      De wetenschap van rust: hoe slaap je brein herstelt en hoe meditatie je
+      aandacht en emoties traint. Van slaapcycli tot mindfulness-onderzoek —
+      nuchtere uitleg zonder wierook.
+    doelgroep: "20–50 jaar, drukke professionals, slechte slapers en beginners in meditatie die wetenschappelijke uitleg willen"
+    content_pijlers:
+      - "Slaapcycli en slaapfases: wat gebeurt er 's nachts in je brein?"
+      - "Slaaphygiëne: de psychologie van beter inslapen"
+      - "Mindfulness: wat onderzoek écht aantoont"
+      - "Meditatietechnieken voor beginners (bodyscan, ademfocus)"
+      - "Dromen en hun psychologische betekenis"
+      - "Schermtijd, blauw licht en je biologische klok"
+      - "Powernaps en herstel: de wetenschap van rust"
+    toon_richtlijnen: >
+      Kalm, nuchter en wetenschappelijk. Geen spirituele claims zonder bewijs;
+      onderscheid anekdote van onderzoek. Slaapadvies is algemeen informatief,
+      geen medische behandeling.
+    voorbeeld_onderwerpen:
+      - "Wat Je Brein 's Nachts Echt Doet (Slaapfases Uitgelegd)"
+      - "Waarom Je Niet Kunt Slapen: De Psychologie Van Piekeren In Bed"
+      - "Mindfulness Voor Sceptici: Wat De Wetenschap Zegt"
+      - "De Perfecte Powernap Volgens Onderzoek"
+      - "Blauw Licht En Je Biologische Klok: Feiten Op Een Rij"

@@ -1,0 +1,108 @@
+# =============================================================================
+# channels.yaml — 10 Nederlandse psychologie-kanalen
+# id's zijn stabiel: psy_nl_01 … psy_nl_10. 'sub_niche' moet exact overeenkomen
+# met een key in config/niche_library.yaml.
+# youtube_project_ref is alleen een label (geen secret) dat verwijst naar het
+# gratis GCP-project per kanaal (YouTube Data API v3, 10.000 units/dag gratis).
+# =============================================================================
+
+channels:
+  - id: psy_nl_01
+    name: "Donkere Geest"
+    sub_niche: dark_psychology
+    language: nl
+    description: "Donkere Geest ontmaskert manipulatie, narcisme en verborgen beïnvloeding met psychologie die je scherper maakt. Leer de trucs herkennen — en jezelf ertegen beschermen."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-01"
+    status: active
+    branding_notes: "Donkere, mysterieuze esthetiek; dieppaars/zwart palet; scherpe serif-titels; thumbnails met contrasterende blikvangers en korte hook-tekst."
+
+  - id: psy_nl_02
+    name: "Zelfverzekerd NL"
+    sub_niche: zelfvertrouwen
+    language: nl
+    description: "Zelfverzekerd NL helpt je met praktische psychologie aan meer zelfvertrouwen: assertiever, socialer en zekerder in je schoenen. Kleine stappen, echte resultaten."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-02"
+    status: active
+    branding_notes: "Warme, optimistische uitstraling; zonnig oranje/wit palet; vriendelijke rounded fonts; thumbnails met lachende gezichten en bemoedigende hooks."
+
+  - id: psy_nl_03
+    name: "Hart & Hechting"
+    sub_niche: relaties
+    language: nl
+    description: "Hart & Hechting verklaart de psychologie van liefde en relaties: hechtingsstijlen, rode vlaggen en betere communicatie. Voor gezondere verbindingen, met jezelf en anderen."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-03"
+    status: active
+    branding_notes: "Zachte, romantische sfeer; roze/koraal palet; elegante script-accenten; thumbnails met koppels/silhouetten en emotionele hooks."
+
+  - id: psy_nl_04
+    name: "De Stoïcijn"
+    sub_niche: stoicisme
+    language: nl
+    description: "De Stoïcijn brengt eeuwenoude wijsheid van Marcus Aurelius en Seneca naar je moderne leven. Rust in je hoofd, controle over je reacties — elke dag."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-04"
+    status: active
+    branding_notes: "Tijdloze, klassieke stijl; marmer-wit/brons palet; Romeinse beeldtaal (zuilen, standbeelden); thumbnails met quotes en serene composities."
+
+  - id: psy_nl_05
+    name: "Gewoonte Lab"
+    sub_niche: gewoontes
+    language: nl
+    description: "Gewoonte Lab test gedragspsychologie in de praktijk: hoe gewoontes ontstaan en hoe je ze slim verandert. Kleine systemen, grote resultaten — onderbouwd met onderzoek."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-05"
+    status: active
+    branding_notes: "Clean, wetenschappelijke look; mintgroen/wit palet; infographic-stijl met iconen en grafieken; thumbnails met voor/na-contrast."
+
+  - id: psy_nl_06
+    name: "Rust in je Hoofd"
+    sub_niche: angst_stress
+    language: nl
+    description: "Rust in je Hoofd geeft je bewezen technieken tegen angst, stress en piekeren — van ademhaling tot cognitieve tools. Kalmeer je zenuwstelsel, elke dag een beetje meer."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-06"
+    status: active
+    branding_notes: "Kalmerende, veilige sfeer; zacht blauw/lavendel palet; ronde vormen en veel witruimte; thumbnails met rustige natuurbeelden en geruststellende hooks."
+
+  - id: psy_nl_07
+    name: "De Overtuiger"
+    sub_niche: overtuigingskracht
+    language: nl
+    description: "De Overtuiger leert je de wetenschap van beïnvloeding: retorica, onderhandeling en presentatie volgens Cialdini. Ethisch overtuigen — op werk en in het leven."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-07"
+    status: active
+    branding_notes: "Zelfverzekerde, zakelijke stijl; donkerblauw/goud palet; strakke sans-serif titels; thumbnails met sprekers/podia en krachtige actiewoorden."
+
+  - id: psy_nl_08
+    name: "Mindset Motor"
+    sub_niche: mindset_motivatie
+    language: nl
+    description: "Mindset Motor trapt je motivatie aan met de psychologie van doorzetten: growth mindset, grit en discipline. Voor iedereen met grote doelen en af en toe een dip."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-08"
+    status: active
+    branding_notes: "Energieke, sportieve vibe; rood/zwart palet; dikke bold titels; thumbnails met dynamische actiebeelden en motiverende one-liners."
+
+  - id: psy_nl_09
+    name: "EQ Academie"
+    sub_niche: emotionele_intelligentie
+    language: nl
+    description: "EQ Academie maakt emotionele intelligentie concreet en trainbaar: empathie, zelfregulatie en sociale vaardigheid. De meest onderschatte skill — hier leer je hem."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-09"
+    status: active
+    branding_notes: "Volwassen, intelligente uitstraling; teal/warm grijs palet; minimalistische composities met menselijke gezichten; thumbnails met inzichtelijke quotes."
+
+  - id: psy_nl_10
+    name: "Slaap & Stilte"
+    sub_niche: slaap_meditatie
+    language: nl
+    description: "Slaap & Stilte verklaart de wetenschap van rust: slaapcycli, mindfulness en meditatie zonder zweverigheid. Beter slapen, dieper ontspannen — onderbouwd met onderzoek."
+    upload_schedule: "daily 10:00 PKT"
+    youtube_project_ref: "gcp-proj-psy-nl-10"
+    status: active
+    branding_notes: "Dromerige nachtsfeer; diepblauw/sterren palet; zachte gradients en maanbeelden; thumbnails met nachtelijke rust en kalme, korte hooks."
